@@ -1,0 +1,63 @@
+body,
+html,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  text-align: center;
+  font-family: "Alfa Slab One", cursive;
+  color: rgba(20, 60, 70, 0.8);
+  font-size: 80px;
+}
+
+.nav-list {
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Alfa Slab One", cursive;
+  background-color: rgba(0, 147, 192, 0.5);
+  list-style: none;
+  padding: 80px;
+}
+
+.nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.nav-list__item {
+  align-items: center;
+  font-family: "Alfa Slab One", cursive;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.nav-list__item a {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 32px;
+  transition: 550ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.nav-list__item a:hover,
+.nav-list__item a:active {
+  color: rgba(184, 82, 132, 0.68);
+  transition: 450ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 0.6);
+}
+
+.nav-list__item .current {
+  color: rgba(98, 17, 132, 0.68);
+}
